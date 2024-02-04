@@ -55,12 +55,3 @@ The project consists of the following files inside of the Anisync Folder folder:
 
 ## Credits
 - **Google**: Idea is based on [Google's Quickdraw](https://quickdraw.withgoogle.com/)
-
-
-## Why we made this
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -14,13 +14,13 @@ The web app is still in development, but the program can also be run locally by 
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/RajPandya737/Quick_Write.git
+git clone https://github.com/RajPandya737/QuickWrite.git
 ```
 
 2. Change to the project directory:
 
 ```bash
-cd Quick_Write
+cd QuickWrite
 ```
 
 3. The project utilizes many libraries. Ensure you have all of them downloaded by running

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/home.css') }}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/css/home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/ef90a79872.js"></script>
+    <title>KraftAI</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="top-buttons">
+        <ul>
+          <li>
+            <a href="#" class="about">
+              <i class="fa-solid fa-question"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/RajPandya737/KraftAI" class="github">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <div>
+          <img
+            src="{{ url_for('static', filename='images/home-img.png') }}"
+            alt="Quick, Write Logo"
+          />
+        </div>
+        <h1>Can a neural network recognize your handwriting?</h1>
+        <div class="button-wrapper">
+          <ul>
+            <li>
+              <a href="{{ url_for('play') }}" class="play-button">
+                <span>Let's Write!</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/game.css') }}"
+    />
+    <title>KraftAI</title>
+  </head>
+  <body>
+    <header id="main-header" class="head-1">
+      <h1 id="timer">Timer:</h1>
+      <h1 id="wordDisplay">Write: </h1>
+      <!-- <h1 id="score">Score: </h1> -->
+    </header>
+    <header id="main-header" class="head-2"></header>
+    <button id="changeBrush">
+      <img
+        id="brushImage"
+        src="{{ url_for('static', filename='images/eraser.png') }}"
+        alt="Quick, Write Logo"
+      />
+    </button>
+    <button id="getWordButton">Get Word</button>
+    <h1 id="ocrResult">Guess:</h1>
+    <canvas id="canvas"></canvas>
+    <script src="../static/js/gen-word.js"></script>
+    <script src="../static/js/canvas.js"></script>
+    <script src="../static/js/ocr-script.js"></script>
+    <script src="../static/js/time.js"></script>
+  </body>
+</html>

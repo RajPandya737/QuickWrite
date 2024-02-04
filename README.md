@@ -2,7 +2,10 @@
 
 ## Description
 
-Quick, Write! is a neural network trained OCR model inspired by Google's Quick, Draw! and our submission into the GDSC With a given word, the neural network will try to guess the word you drew, so, take the challenge, how good is your hand writing on a mouse. Note, the application is not mobile compatable as of yet. Thi project is still in development. 
+## "With Quick, Write! Users are able to perfect their handwriting given AI technology and high-level tracking. This project targets the 4th UN Sustainable Development goal (Quality Education) while leveraging Google's Quick, Draw! capabilities." 
+
+Quick, Write! is a neural network trained OCR model inspired by Google's Quick, Draw! and our submission into the GDSC With a given word, the neural network will try to guess the word you drew, so, take the challenge, how good is your hand writing on a mouse. Note, the application is not mobile compatible as of yet. This project is still in development. feel free to make it a sob story about helping disabled children practice and help build muscle memory and fine motor skills to the point where they can transcribe and fit in with the others make sure to check off each of the criteria above make up features as you go to get the most pity + emotional  points  and make sure to guilt trip for extra marks and sympathy Note, the application is not mobile compatable as of yet. This project is still in development. 
+
 
 ## How to run the program
 

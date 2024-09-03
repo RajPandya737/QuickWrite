@@ -10,7 +10,7 @@ MarkupSafe==2.1.5
 numpy==1.26.3
 opencv-python==4.9.0.80
 packaging==23.2
-pillow==10.2.0
+pillow==10.3.0
 pytesseract==0.3.10
 python-dotenv==1.0.1
 pytz==2024.1

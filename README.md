@@ -4,7 +4,7 @@
 
 With Quick, Write! Users are able to perfect their handwriting given AI technology and high-level tracking.
 
-Quick, Write! is a neural network trained OCR model inspired by Google's Quick, Draw! The neural network will try to guess the word you drew, so, take the challenge, how good is your hand writing on a mouse. 
+Quick, Write! is a neural network trained OCR model inspired by Google's Quick, Draw! The neural network will try to guess the word you drew, so, take the challenge, how good is your hand writing on a mouse. This project is not deployed, in order to run it, install Tesseract OCR, add it to your path and run the app.py file.
 
 ## Project Structure
 The project consists of the following files inside of the Anisync Folder folder:
